@@ -1,7 +1,6 @@
 #page-home {
     height: 100vh;
-
-    background: url("../../assets/home-background.svg") no-repeat 700px bottom;
+    background: url("../../assets/home-background.svg") no-repeat 650px bottom;
 }
 
 #page-home .content {
@@ -19,6 +18,7 @@
 #page-home .content header {
     margin: 48px 0 0;
 }
+
 
 #page-home .content main {
     flex: 1;
