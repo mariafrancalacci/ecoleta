@@ -10,8 +10,6 @@ import Dropzone from "../../components/Dropzone";
 
 import "./styles.css";
 
-//array ou objeto: manualmente informar o tipo da variavel
-
 import logo from "../../assets/logo.svg";
 
 interface Item {
@@ -80,7 +78,6 @@ const CreatePoint = () => {
   }, []);
 
   useEffect(() => {
-    //carregar as cidades sempre que a uf mudar
     if (selectedUf === "0") {
       return;
     }
