@@ -2,7 +2,6 @@
 height: 300px;
 background: #e1faec;
 border-radius: 10px;
-
 display: flex;
 justify-content: center;
 align-items: center;
@@ -34,4 +33,17 @@ color: #4ecb79;
 width: 30px;
 height: 30px;
 margin-bottom: 8px;
+}
+
+@media (max-width: 900px) {
+    .dropzone {
+        height: 200px;
+        background: #e1faec;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+        outline: 0;
+        }
 }

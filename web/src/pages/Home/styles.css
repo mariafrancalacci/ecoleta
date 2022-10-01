@@ -1,6 +1,5 @@
 #page-home {
     height: 125vh;
-    padding-right: 3.95rem;
     padding-bottom: 10rem;
     background: url("../../assets/home-background.svg") no-repeat 500px  bottom;
   }
@@ -108,10 +107,12 @@
     }
   
     #page-home .content main h1 {
-      font-size: 42px;
+      font-size: 35px;
     }
   
     #page-home .content main p {
       font-size: 24px;
     }
+
+ 
   }
